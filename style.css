@@ -87,6 +87,17 @@ body{
     height: 100px;
 }
 
+#creepy{
+    scale: 1;
+    height: 250px;
+    transition: .1s;
+}
+
+#creepy:hover{
+    scale: 1.5;
+    transition: .1s
+}
+
 @keyframes rainbow{
     0%{
 
@@ -110,4 +121,12 @@ td{
 
 table{
     text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 0;
+    padding: 0;
+    margin: 0;
 }
